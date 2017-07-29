@@ -13,9 +13,7 @@ select_statement= "SELECT urls.url,urls.Visit_count FROM urls,Visits WHERE urls.
 
 cursor.execute(select_statement)
 
-for row in cursor:
-    print(row)
+result=cursor.fetchall()
 
-
-
+print(result)
 

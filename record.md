@@ -3,7 +3,7 @@
 ## Website recommendation system besed on past browser history 
 
 ### Tasks to do:
- - [ ] retriving the browser history.
+ - [x] retriving the browser history.
  - [ ] crawling the websites for its content.
  - [ ] analysing the content obtained.
  - [ ] clustering websites according to the type.

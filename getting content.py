@@ -1,7 +1,10 @@
 import urllib.request
 from bs4 import BeautifulSoup
+file=open("URLS.txt","r")
 
-page=urllib.request.urlopen('https://www.youtube.com/')
+websites=file.readlines()
+for website in websites
+    page=urllib.request.urlopen(website)
 
 #print(page.read())
 soup=BeautifulSoup(page.read(),"html.parser")
